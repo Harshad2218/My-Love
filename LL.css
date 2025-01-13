@@ -1,0 +1,40 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('flower.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.letter-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fbeff5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#letter {
+    font-size: 18px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.hidden-message {
+    display: none;
+    margin-top: 20px;
+}
+
+.hidden-message img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+.hidden-message p {
+    font-size: 16px;
+    color: #d33;
+}
